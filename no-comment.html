@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Wisdom Ojimah" />
+    <meta name="keywords" content="" />
+    <title>No Post Comment</title>
+    <link rel="icon" href="img/logo.png" />
+
+    <!-- Preload stylesheets -->
+    <link rel="preload" href="css/style.min.css " as="style" />
+    <link rel="preload" href="css/main.min.css " as="style" />
+
+    <!-- Actual stylesheets -->
+    <link rel="stylesheet" href="css/main.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+</head>
+
+<body>
+
+    <div class="preloader-container">
+        <div class="preloader round"></div>
+    </div>
+
+    <div class="content relative">
+        <header>
+            <div class="header-container flex">
+                <div class="nav-controls flex">
+                    <div>
+                        <a href="index.html">
+                            <img class="logo" src="img/logo.png" alt="InkedSolace" />
+                        </a>
+                    </div>
+                    <div class="mobile-nav-controls flex">
+                        <div>
+                            <a class="nav-link search-toggle" href="javascript:void(0)">
+                                <i class="fas fa-search fa-fw"></i>
+                            </a>
+                        </div>
+
+                        <div>
+                            <a class="nav-toggle" href="javascript:void(0)">
+                                <span></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nav-content">
+                    <nav class="relative">
+                        <li class="nav-item relative">
+                            <a class="nav-link dropdown-toggle" href="javascript:void(0)">
+                                Categories
+                                <i class="fas fa-caret-down fa-sm fa-fw"></i>
+                            </a>
+                            <div class="dropdown">
+                                <a class="dropdown-link" href="cat.html">
+                                    News
+                                </a>
+                                <a class="dropdown-link" href="cat.html">
+                                    Music
+                                </a>
+                                <a class="dropdown-link" href="cat.html">
+                                    Videos
+                                </a>
+                                <a class="dropdown-link" href="cat.html">
+                                    Entertainment
+                                </a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="admin.html">
+                                Admin
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="register.html">
+                                Register
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">
+                                Login
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">
+                                Contact
+                            </a>
+                        </li>
+                        <li class="nav-item m-hidden">
+                            <a class="nav-link search-toggle" href="javascript:void(0)">
+                                <i class="fas fa-search fa-sm fa-fw"></i>
+                            </a>
+                        </li>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="search-container text-center">
+                <form action="search.html" method="get">
+                    <div>
+                        <input class="search-input btn" type="search" name="search" placeholder="Search" autofocus />
+                        <button class="btn search-btn" type="submit ">
+                            Search
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </header>
+
+		<main>
+			<article>
+				<div class="post-container">
+					<div class="text-center post-details">
+						<h1>Blog Post</h1>
+						<p>
+							<span>
+								<i class="fas fa-calendar-alt"></i>
+								Wednesday, 26 August, 2020
+							</span>
+							<span class="light-blue">
+								<i class="fas fa-user-edit"></i>
+								<a class="light-blue to-category-link" href="user_post.html" target="_blank">Wisdom Ojimah,</a>
+							</span>
+							<span class="light-blue">
+								<i class="fas fa-folder"></i>
+								<a class="light-blue to-category-link" href="cat.html" target="_blank">
+								   Uncategorized,
+								</a>
+							</span>
+							<span>
+								<i class="far fa-comments"></i>
+								5
+							</span>
+						</p>
+					</div>
+					<div class="post-image">
+						<img src="img/splash_of_colors-1366x768.jpg" alt="Blog Post" width="100%" height="400">
+					</div>
+					<div class="post-content">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p class="post-owner">
+							&copy;
+							Wisdom Ojimah
+						</p>
+					</div>
+
+					<div class="related-post">
+						<h3>Like this poem? Checkout more</h3>
+						 <li class="nav-item">
+							<a class="light-blue link" href="post.html">
+								Seventh Blog Post
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="light-blue link" href="post.html">
+								Eighth Blog Post
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="light-blue link" href="post.html">
+								Ninth Blog Post
+							</a>
+						</li>
+					</div>
+
+					<div class="comments">
+						<h3 class="heading text-center">No comment yet. Be the first to comment.</h3>
+					</div>
+
+					<div class="comment-status">
+						<h3 class="heading">Post a comment</h3>
+						<small>Please note that all fields are required.</small>
+						<form method="post">
+							 <div class="comment-form" id="comment-form">
+
+								<label for="name">Name</label>
+								<input class="btn form-input comment-input" type="text" name="name" placeholder="Name" value="">
+
+								<label for="comment">Comment</label>
+								<textarea class="btn form-input comment-input" name="comment" rows="5" placeholder="Comment"></textarea>
+
+								<button class="btn submit-btn" type="submit" name="submit">
+									Post Comment 
+									<i class="fas fa-paper-plane"></i>
+								</button>
+
+							</div>
+						</form>
+					</div>
+				</div>
+			</article>
+		</main>
+
+        <footer>
+            <div class="footer-container">
+                <div class="recent-post">
+                    <h2 class="heading">Recent Posts</h2>
+
+                    <li class="nav-item footer-link-li">
+                        <a class="footer-link link light-blue" href="post.html">
+                            First Blog Post
+                        </a>
+                    </li>
+                    <li class="nav-item footer-link-li">
+                        <a class="footer-link link light-blue" href="post.html">
+                            Second Blog Post
+                        </a>
+                    </li>
+                    <li class="nav-item footer-link-li">
+                        <a class="footer-link link light-blue" href="post.html">
+                            Third Blog Post
+                        </a>
+                    </li>
+                </div>
+                <div class="about">
+                    <h2 class="heading">About</h2>
+                    <p>
+                        Poetry is medicine for the soul, an avenue through which we express our innermost thoughts and give interpretations of nature and the things around us.
+                    </p>
+                    <p>
+                        InkedSolace provides an avenue where we can make public our beautiful poems for the enjoyment of others.
+                    </p>
+                </div>
+                <div class="contact">
+                    <h2 class="heading">We are social!</h2>
+                    <p>
+                        Have a poem or a suggestion for us, a feature you'll like us to add or a bug to report? We'll love to hear from you.
+                    </p>
+                    <p class="footer-icons text-center">
+                        <a class="round" href="https://www.facebook.com/IamWisdomOjimah" target="_blank" title="Wisdom">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+
+                        <a class="round" href="https://github.com/LoneSadist" target="_blank" title="Wisdom">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a class="round" href="https://wa.me/+2348067589085" target="_blank" title="Wisdom">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+
+                        <a class="round" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fng.linkedin.com%2Fin%2Fwisdom-ojimah-9a4466186&psig=AOvVaw0msUMY9C5MUwLGkaJPkbwD&ust=1595550894069000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCKjS2LmQ4uoCFQAAAAAdAAAAABAD" target="_blank"
+                            title="Wisdom">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+
+                        <a class="round" href="mailto: vindicatedwisdom@gmail.com" target="_blank" title="Wisdom">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                    </p>
+                    <p class="text-center">
+                        You can also send us a direct message using this link 
+                        <a class="footer-link" href="contact.html">
+                            Contact form.
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="text-center copyright">
+                <p>
+                    &copy; 2020 &boxh; 2021. All rights reserved.
+                </p>
+                <p>
+                    All poems are intellectual properties of their respective owners.
+                </p>
+                <p>
+                    Created with all the <i class="fas fa-heart fa-fw"></i> in the world by <a class="footer-link" href="https://github.com/detachedsoul" target="_blank">Wisdom Ojimah.</a>
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <a class="top" href="javascript:void(0)">
+        <i class="fas fa-caret-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="js/main.min.js"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Montserrat&family=Pacifico&family=Luckiest+Guy&family=Bitter:wght@550&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+</body>
+
+</html>
